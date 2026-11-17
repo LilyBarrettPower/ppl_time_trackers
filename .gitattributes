@@ -1,0 +1,3 @@
+# Always use LF line endings (matches Prettier) regardless of OS settings.
+* text=auto eol=lf
+*.ico binary
