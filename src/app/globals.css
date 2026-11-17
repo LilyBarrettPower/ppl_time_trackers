@@ -22,5 +22,7 @@
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  /* The template set Arial here, which silently overrode the Geist font
+     loaded in layout.tsx. Using the theme's sans font fixes that. */
+  font-family: var(--font-sans), ui-sans-serif, system-ui, sans-serif;
 }
